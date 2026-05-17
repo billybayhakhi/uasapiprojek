@@ -18,7 +18,7 @@ class ApiKey extends Model
     // Generate random API key
     public static function generate(): string
     {
-        return 'mlaku_' . Str::random(48);
+        return 'gojatim_' . Str::random(48);
     }
 
     public function user()

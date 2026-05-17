@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mlaku - Discover Engaging Places</title>
+    <title>GoJatim Travel - Discover Engaging Places</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
@@ -11,7 +11,7 @@
 
     <!-- NAVBAR -->
     <nav>
-        <a href="{{ url('/') }}" class="nav-logo">ml<span>a</span>ku</a>
+        <a href="{{ url('/') }}" class="nav-logo">Go<span>Jatim</span> Travel</a>
 
         <ul class="nav-links">
             <li><a href="{{ url('/') }}">Beranda</a></li>
@@ -267,8 +267,8 @@
     <footer>
         <div class="footer-grid">
             <div class="footer-brand">
-                <a href="{{ url('/') }}" class="nav-logo">ml<span>a</span>ku</a>
-                <p class="footer-desc">Mlaku hadir untuk membantu kamu menjelajahi keindahan alam dan budaya Jawa Timur — dari pesisir selatan Pacitan hingga puncak Lumajang.</p>
+                <a href="{{ url('/') }}" class="nav-logo">Go<span>Jatim</span> Travel</a>
+                <p class="footer-desc">GoJatim Travel hadir untuk membantu kamu menjelajahi keindahan alam dan budaya Jawa Timur — dari pesisir selatan Pacitan hingga puncak Lumajang.</p>
                 <div class="footer-socials">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -303,14 +303,14 @@
                 <p class="footer-heading">Contact</p>
                 <ul class="footer-links">
                     <li><a href="tel:0800123456"><i class="fas fa-phone" style="width:16px"></i> 0800-123-456</a></li>
-                    <li><a href="mailto:hello@mlaku.id"><i class="fas fa-envelope" style="width:16px"></i> hello@mlaku.id</a></li>
+                    <li><a href="mailto:hello@gojatim.id"><i class="fas fa-envelope" style="width:16px"></i> hello@gojatim.id</a></li>
                     <li><a href="#"><i class="fas fa-map-marker-alt" style="width:16px"></i> Surabaya, Jawa Timur</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <span>© {{ date('Y') }} Mlaku. All rights reserved.</span>
+            <span>© {{ date('Y') }} GoJatim Travel. All rights reserved.</span>
             <span>Made with ♥ in Indonesia</span>
         </div>
     </footer>
